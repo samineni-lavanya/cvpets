@@ -43,7 +43,7 @@ body{
    font-size: 1.1rem;
  }
  .container-fluid{
-   padding:3% 15%;
+   padding:3% 15% 9%;
  }
 .download-button{
   margin: 7% 3% 2% 0%;
@@ -51,9 +51,13 @@ body{
 .title-image{
   width:65%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 #features{
   padding:7% 15%;
+  background-color: #ffffff;
+  position: relative;
 }
 .features-icon{
   font-size: 3.5rem;
@@ -98,7 +102,7 @@ body{
 }
 #pricing{
   text-align: center;
-  margin: 7% auto 0;
+  padding: 7% 10%;
 }
 #cta{
   text-align: center;
@@ -119,4 +123,16 @@ body{
 }
 .footer-icon{
    margin:20px 10px;
+}
+.pri-pad{
+  padding: 3% 2%;
+}
+@media (max-width: 1020px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
 }
